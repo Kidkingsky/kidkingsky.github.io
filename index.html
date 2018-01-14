@@ -131,18 +131,40 @@
       <div id="Works">
         <h2>作品</h2>
         <hr color="#000088" size="10">
-        <div class=" video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/XdKXMmHGnF0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-              
-            </iframe>
-        </div>
+        
         <div class="divbody1 row">
-          <div class="name col-2 text-center bg">賽馬</div>
-          
-          <div class="name col border border-secondary">
-            <p>做賽馬架構時遇到的困難，第一個會先考量不同Client端顯示的馬匹位置，第二如何及時演算出浮動賠率的架構。</p>
-            <p>馬匹位置解決方式，由腳本控制每批馬的位置及速度，再經由廣播送給同一場的玩家，即使有延遲的玩家呈現的結果都會是一樣的。</p>
-            <p>會先請企劃人員設計不同批馬的勝率即賠率，再透過公式計算出單批馬的賠率</p>
+          <div class="name col-4">
+            <h3>賽馬</h3>
+            <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://www.youtube.com/embed/XdKXMmHGnF0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="name border border-secondary">
+              <p>做賽馬架構時遇到的困難，第一個會先考量不同Client端顯示的馬匹位置，第二如何及時演算出浮動賠率的架構。</p>
+              <p>馬匹位置解決方式，由腳本控制每批馬的位置及速度，再經由廣播送給同一場的玩家，即使有延遲的玩家呈現的結果都會是一樣的。</p>
+              <p>會先請企劃人員設計不同批馬的勝率即賠率，再透過公式計算出單批馬的賠率</p>
+            </div>
+          </div>
+
+          <div class="name col-4">
+            <h3>15連線機台</h3>
+            <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://www.youtube.com/embed/GYCcUVYUlRM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="name border border-secondary">
+              <p>做海洋祭連線機台時遇到最大的挑戰，如何把所有盤行串在一起造成連線</p>
+              <p>解決方式，會寫一個產盤型工具產出各個賠率的盤型，後續再做一個盤行連結工具做掛勾將多個盤型串在一起</p>
+            </div>
+          </div>
+
+          <div class="name col-4">
+            <h3>RedDog</h3>
+            <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://www.youtube.com/embed/pnPB8msLNss" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="name border border-secondary">
+              <p>做TableGame時遇到最大的困難是流程及玩家斷線處理的方式</p>
+              <p>TableGame的流程架構，會使用狀態控制不同的Event走法，玩家斷線時如何先將玩家卡在桌上，等該局結束後計算結果及流程回報給客戶端顯示</p>
+            </div>
           </div>
         </div>
       </div>
