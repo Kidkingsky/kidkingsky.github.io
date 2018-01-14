@@ -9,6 +9,12 @@ $(document).ready(function () {
 	$("#Experience").addClass('pageclose');
 	$("#Works").addClass('pageclose');
 
+	//$(".adderMap").addClass('pageclose');	
+
+	$(".adderClose").on("click", function(){
+		$(".adderMap").addClass('pageclose');	
+	})
+
 	$("#about").on("click", function(){
 		$("#BasicInformation").removeClass('pageclose');
 		$("#Experience").addClass('pageclose');
@@ -51,4 +57,5 @@ $(document).ready(function () {
   	}).on("click", function(){
   		$(".excontext p").html(exPage3);
   	});
+
 });

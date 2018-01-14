@@ -34,4 +34,22 @@ top: 0;left: 0;
 
 width: 100%;
 
-height: 100%;}
+height: 100%;
+}
+
+
+.adderMap {
+	position: fixed;
+	width: 600px;
+	height: 460px;
+	border:1px solid #ccc;
+}
+.adderTitle p{
+	float: left;
+}
+
+.adderTitle .adderClose{
+	float: right;
+	padding-right: 10px;
+	cursor: pointer;
+}
